@@ -9,14 +9,18 @@
     gap:0.5rem;
 }
 .questions{
-    background-color: whitesmoke;
+    background-color: white;
     border-right: 1px solid  rgb(219, 217, 217);
     border-left: 1px solid rgb(219, 217, 217);
     padding: 1rem;
 
 }
+.qn-img{
+    width: 45%;
+    border-radius: 1rem;
+}
 .qn-heading{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: 500;
 }
 .ask-button{
@@ -31,6 +35,12 @@
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
+    border-radius: 1rem;
+}
+.qn-img-container{
+   width: 25%; 
+   display: flex;
+   gap: 0.5rem;
 }
 .qn-list-container{
     display: flex;
@@ -50,7 +60,7 @@
 }
 .total-qn{
     font-size: 2rem;
-    padding: 1rem 0 2rem 1rem;
+    padding: 0 0 2rem 1rem;
 }
 .qn-name{
     font-size: 1.5rem;

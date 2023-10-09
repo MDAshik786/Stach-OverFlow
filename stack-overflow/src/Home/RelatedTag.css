@@ -15,9 +15,20 @@
 .list-name{
     padding: 0.6rem 1rem;
     border-radius: 0.5rem;
+    font-size: 0.9rem;
+    background-color: rgb(247, 228, 193);
 }
 .relatedtag-button-container{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+.list-button-container{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.list-button-container{
+    white-space: nowrap;
+    font-size: 0.9rem;
 }
