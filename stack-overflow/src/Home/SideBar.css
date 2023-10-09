@@ -16,6 +16,7 @@
 .s-links{
     padding: 0.6rem 1rem;
     background-color: whitesmoke;
+    cursor: pointer;
 
 }
 .ques-container .s-links{

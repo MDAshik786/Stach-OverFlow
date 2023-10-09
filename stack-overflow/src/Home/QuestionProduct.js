@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../Asserts/Images/young-man-asking-question-cartoon-illustration-trying-to-understand-what-s-going-92068780.webp'
+import img from '../Asserts/Images/boy.jpg'
 const QuestionProduct = () => {
   return (
     <div className="questions">
