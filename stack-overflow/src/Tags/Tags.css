@@ -1,3 +1,6 @@
+.Tags-main{
+    display: flex;
+}
 .tags-container{
     border-right: 1px solid rgb(219, 217, 217);
     border-left: 1px solid rgb(219, 217, 217);
@@ -5,10 +8,12 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 100%;
 }
 .tag-heading{
     font-size: 2rem;
     font-weight: 500;
+    font-family: 'Gabarito', cursive;
 }
 .tag-mapping-container{
     display: grid;
@@ -16,8 +21,7 @@
     gap: 1rem;
 }
 .tag-heading-desc{
-    white-space: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .single-map-tag{
     font-size: 1rem;
@@ -27,6 +31,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    background-color: whitesmoke;
 }
 .tags-button{
     height: 1.8rem;
@@ -37,7 +42,6 @@
     width: fit-content;
 }
 .tag-des{
-    letter-spacing: 0.5px;
     word-spacing: 0.5px;
 }
 .tag-counts{

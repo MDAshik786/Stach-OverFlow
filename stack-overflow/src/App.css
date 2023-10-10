@@ -1,6 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,400&family=Roboto:wght@300;400;500;700&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&display=swap');
 
 .App-logo {
   height: 40vmin;
@@ -11,6 +12,8 @@ button{
   border: none;
   position: relative;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 button:hover::before,button:active:before {
   content: '';
@@ -23,4 +26,5 @@ button:hover::before,button:active:before {
   border-radius: 0.5rem;
   
 }
+
 

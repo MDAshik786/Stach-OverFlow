@@ -1,27 +1,24 @@
-.questin-main-div{
-   display: flex; 
-   justify-content: center;
-}
-.question-main-conatiner{
-    min-height: 100dvh;
+
+.qn-main-container{
     display: flex;
-    width: 80%;
-    gap:0.5rem;
 }
+
 .questions{
     background-color: white;
     border-right: 1px solid  rgb(219, 217, 217);
     border-left: 1px solid rgb(219, 217, 217);
     padding: 1rem;
-
+    width: 100%;
 }
+
 .qn-img{
     width: 45%;
     border-radius: 1rem;
 }
 .qn-heading{
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 500;
+    font-family: 'Gabarito', cursive;
 }
 .ask-button{
     height: 2.2rem;
@@ -31,8 +28,11 @@
     color: white;
 
 }
+.hr-qn-product{
+    border: 1px solid rgb(219, 217, 217);
+}
 .qn-container{
-    padding: 0 2rem;
+    padding: 0 2rem 0 1rem;
     display: flex;
     justify-content: space-between;
     border-radius: 1rem;
@@ -63,8 +63,8 @@
     padding: 0 0 2rem 1rem;
 }
 .qn-name{
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 400;
     color: #017cb6;
     cursor: pointer;
 }
@@ -90,7 +90,4 @@
     background-color: orange;
     border-radius: 0.5rem;
 }
-/* .relativetags{
-    position: sticky;
-    top: 1rem;
-} */
+

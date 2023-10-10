@@ -5,6 +5,7 @@
     color: rgb(64, 63, 63);
     position: sticky;
     top: 5rem;
+    width: 20%;
 }
 .ques-container{
     display: flex;
@@ -21,4 +22,16 @@
 }
 .ques-container .s-links{
     padding: 0.6rem 1rem 0.6rem 0rem;
+}
+.selected{
+   border-right:0.5rem solid orange ;
+
+}
+.selected-font{
+    font-weight: 500;
+    color: #000;
+}
+.s-link{
+    padding-left: 2rem;
+    
 }

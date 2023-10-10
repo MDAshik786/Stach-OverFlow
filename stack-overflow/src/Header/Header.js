@@ -11,9 +11,9 @@ const Header = () => {
         <div className="header-layer"><TfiViewListAlt className='layout-icon'/>
         <div className="head-img"><img src={img} alt=""  width={100} className='header-logo'/></div>
     </div>
-  <div className='input-container'>  <input type="text" autoFocus className='header-search-input' placeholder='Search' />
+  <div className='head-input-container'>  <input type="text" autoFocus className='header-search-input' placeholder='Search' />
   <BiSearchAlt className='search-icon'/></div>
-   <div className='button-container'> <button className='header-Login-button'>Log in</button>
+   <div className='head-button-container'> <button className='header-Login-button'>Log in</button>
     <button className='header-signin-button'>Sign up</button></div>
     </div>
     </div>

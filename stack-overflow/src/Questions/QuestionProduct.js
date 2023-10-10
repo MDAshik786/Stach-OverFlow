@@ -10,7 +10,7 @@ const QuestionProduct = () => {
       <button className="ask-button">Ask Question</button></div>
     </div>
     <p className="total-qn">23,930,648 questions</p>
-    <hr />
+    <hr  className='hr-qn-product'/>
     <div className="qn-list-container">
       <div className="qn-left-container">
         <span className="qn-vote">0 voted</span>
@@ -22,11 +22,6 @@ const QuestionProduct = () => {
           Creating one universal legend for many ggplots with unique
           combinations of a universal factor
         </span>
-        {/* <span className="">
-          Creating one universal legend for many ggplots with unique
-          combinations of a universal factor Creating one universal legend
-          for many ggplots with unique combinations of a universal factor
-        </span> */}
         <div className="keyword-user-container">
           <div className="button-conatiner">
             <button className="keywords-button">Python</button>
@@ -39,7 +34,7 @@ const QuestionProduct = () => {
         </div>
       </div>
     </div>
-    <hr />
+    <hr className='hr-qn-product'/>
     <div className="qn-list-container">
       <div className="qn-left-container">
         <span className="qn-vote">0 voted</span>
@@ -51,11 +46,6 @@ const QuestionProduct = () => {
           Creating one universal legend for many ggplots with unique
           combinations of a universal factor
         </span>
-        {/* <span className="">
-          Creating one universal legend for many ggplots with unique
-          combinations of a universal factor Creating one universal legend
-          for many ggplots with unique combinations of a universal factor
-        </span> */}
         <div className="keyword-user-container">
           <div className="button-conatiner">
             <button className="keywords-button">Python</button>

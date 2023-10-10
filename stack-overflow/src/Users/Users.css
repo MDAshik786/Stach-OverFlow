@@ -1,0 +1,51 @@
+.users-main-div{
+    display: flex;
+}
+.Users-whole-container{
+    border-right: 1px solid rgb(219, 217, 217);
+    border-left: 1px solid rgb(219, 217, 217);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+.user-haeding{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Gabarito', cursive;
+}
+.users-container{
+   display: flex;
+   padding: 1rem;
+   border: 1px solid rgb(219, 217, 217);
+   font-size: 1rem;
+   gap: 1rem;
+   border-radius: 0.5rem;
+}
+.profile-pic-container .img{
+    aspect-ratio: 1;
+    border-radius: 0.4rem;
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+}
+.user-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.user-name{
+    color: #017cb6;
+    font-size: 1rem;
+}
+.country-name{
+    color: rgb(95, 94, 94);
+}
+.user-tags{
+    color: #017cb6;
+
+}
