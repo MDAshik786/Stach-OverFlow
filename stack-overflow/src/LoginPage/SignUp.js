@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import "./SignUp.css";
-import { FcGoogle } from "react-icons/fc";
-import { AiFillGithub } from "react-icons/ai";
-import { FaFacebook } from "react-icons/fa";
 import { GrStackOverflow } from "react-icons/gr";
-import { Link } from "react-router-dom";
 import Input from "./Input";
-
 
 function SignUp() {
   const [signup_values, setSignup_values] = useState({
@@ -21,7 +16,7 @@ function SignUp() {
     check_email: "",
     check_password: "",
     check_confirm: "",
-  })
+  });
   const emailCheck = (data) => {
     const emailpattern =
       /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -70,19 +65,104 @@ function SignUp() {
   return (
     <div className="main-container">
       <div className="signup_container">
-        <div className="leftside-container">
-          <h1 style={{ marginTop: "6rem", fontSize: "3rem" }}>Sign up</h1>
-          <div>
-            <GrStackOverflow
-              style={{ fontSize: "7rem", paddingTop: "3rem", color: "orange" }}
-            />
-            <h1>Internal </h1>
-            <h2>Stack Overflow</h2>
+        <div className="leftside-container-signup">
+          <p className="login-heading">Sign up</p>
+          <div className="logo-name-container">
+            <GrStackOverflow className="icons-stack" />
+            <div>
+              <p className="internal">Internal </p>
+              <p className="stackoverflow">Stack Overflow</p>
+            </div>
           </div>
         </div>
-        <div>
-          <form>
-            <h3 className="input_title">Username</h3>
+        <div className="right-container">
+          <form className="login-form_container">
+            <div className="whole-input">
+              <div className="signup-input-container">
+                <div className="input-container-signup">
+                  <label className="login-input_title">User name:</label>
+                  <Input
+                    name="username"
+                    type="text"
+                    placeholder="Enter Your Name"
+                    onChange={(data) => {
+                      nameCheck1(data);
+                    }}
+                  />
+                  {checking.check_username && (
+                    <p className="error">Enter username</p>
+                  )}
+                </div>
+                <div className="input-container-signup">
+                  <label className="login-input_title">Email:</label>
+                  <Input
+                    name="email"
+                    type="text"
+                    placeholder="Enter Your Email"
+                    onChange={(data) => {
+                      emailCheck(data);
+                    }}
+                  />
+                  {checking.check_email && (
+                    <p className="error">Enter valid mail id</p>
+                  )}
+                </div>
+                <div className="input-container-signup">
+                  <label className="login-input_title">Password:</label>
+                  <Input
+                    name="password"
+                    type="password"
+                    placeholder="Enter Your Password"
+                    onChange={(data) => {
+                      passwordCheck(data);
+                    }}
+                  />
+                  {checking.check_password && (
+                    <p className="error">password contain 8 digit</p>
+                  )}
+                </div>
+                <div className="input-container-signup">
+                  <label className="login-input_title">Confirm Password:</label>
+                  <Input
+                    name="country"
+                    type="password"
+                    placeholder="Reenter Your Password"
+                    onChange={(data) => {
+                      confirm(data);
+                    }}
+                  />
+                   {checking.check_confirm && (
+                    <p className="error">password is not match</p>
+                  )}
+                </div>
+                <div className="input-container-signup">
+                  <label className="login-input_title">Country:</label>
+                  <Input
+                    name="country"
+                    type="text"
+                    placeholder="Enter Your Country"
+                    onChange={(data) => {
+                      nameCheck1(data);
+                    }}
+                  />
+                  {checking.check_username && (
+                    <p className="error">Enter username</p>
+                  )}
+                </div>
+              </div>
+            </div>
+            <div className="button-container">
+              <button className="login_button">Sign up</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+}
+{
+  /* <form>
+          <label className="login-input_title">User name:</label>
             <Input
               name="username"
               type="text"
@@ -91,7 +171,7 @@ function SignUp() {
               }}
             />
             {checking.check_username && <p className="error">Enter username</p>}
-            <h3 className="input_title">Email</h3>
+            <label className="login-input_title">Email:</label>
             <Input
               name="email"
               type="text"
@@ -102,7 +182,7 @@ function SignUp() {
             {checking.check_email && (
               <p className="error">Enter valid mail id</p>
             )}
-            <h3 className="input_title">Password</h3>
+            <label className="login-input_title">Password:</label>
             <Input
               name="password"
               type="password"
@@ -113,7 +193,7 @@ function SignUp() {
             {checking.check_password && (
               <p className="error">password contain 8 digit</p>
             )}
-            <h3 className="input_title">Confirm_Password</h3>
+           <label className="login-input_title">Confirm Password:</label>
             <Input
               name="confirm_password"
               type="password"
@@ -124,7 +204,7 @@ function SignUp() {
             {checking.check_confirm && (
               <p className="error">password is not match</p>
             )}
-            <button className="btn btn-primary submit_button">Sign up</button>
+           <button className="login_button">Sign up</button>
             <br></br>
             <Link to="/Login">
               <a
@@ -139,14 +219,6 @@ function SignUp() {
               </a>
             </Link>
             <br></br>
-          </form>
-          <FcGoogle className="icons" />
-          <AiFillGithub className="icons" />
-          <FaFacebook className="icons" />
-        </div>
-      </div>
-    </div>
-  );
+          </form> */
 }
-
 export default SignUp;

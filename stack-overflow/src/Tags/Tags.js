@@ -9,7 +9,7 @@ const Tags = () => {
     <>
       <Header />
       <div className="Tags-main">
-        <SideBar />
+       <SideBar />
         <div className="tags-container">
           <p className="tag-heading">Tags</p>
           <p className="tag-heading-desc">

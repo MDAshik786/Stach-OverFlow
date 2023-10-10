@@ -19,8 +19,8 @@
     border-radius: 0.5rem;
 }
 .login-icons{
-    font-size: 1.7rem;
-    margin-left: 18%;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .login_button{
     width: 50%;
@@ -32,7 +32,8 @@
 }
 .login-heading{
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-family: 'Gabarito', cursive;
 
 }
 .internal{
@@ -52,8 +53,9 @@
 .leftside-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 2rem;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0 0 2rem 2rem;
 }
 .logo-name-container{
     display: flex;
@@ -61,16 +63,18 @@
     gap: 1rem;
     padding-top: 2rem;
     align-items: center;
+    font-family: 'Gabarito', cursive;
 }
 .login-input_title{
     font-weight:500;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .input-container{
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
   width: 100%;
+  font-size: 1rem;
  
 }
 .whole-input{
@@ -92,9 +96,10 @@
  }   
 .icons-container{
     display: flex;
+    justify-content: center;
     gap: 1rem;
     padding-top: 1.5rem;
-    
+    align-items: center;
 } 
 
 .button-container{

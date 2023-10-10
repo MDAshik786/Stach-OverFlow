@@ -1,3 +1,6 @@
+.sidebar-whole-container{
+    width: 15%;
+}
 .sidebar-container{
     display: flex;
     flex-direction: column;
@@ -5,7 +8,6 @@
     color: rgb(64, 63, 63);
     position: sticky;
     top: 5rem;
-    width: 20%;
 }
 .ques-container{
     display: flex;

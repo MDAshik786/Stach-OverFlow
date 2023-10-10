@@ -21,13 +21,11 @@ function Login() {
       <div className="login_container">
         <div className="leftside-container">
           <p className="login-heading">Login</p>
-          <div className='logo-name-container'>
-            <GrStackOverflow className="icons-stack"
-              
-            />
+          <div className="logo-name-container">
+            <GrStackOverflow className="icons-stack" />
             <div>
-            <p className="internal">Internal </p>
-            <p className="stackoverflow">Stack Overflow</p>
+              <p className="internal">Internal </p>
+              <p className="stackoverflow">Stack Overflow</p>
             </div>
           </div>
         </div>
