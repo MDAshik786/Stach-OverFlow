@@ -1,0 +1,100 @@
+
+.home_right{
+    
+    position: relative;
+    
+}
+.home-img-container{
+
+}
+.home-pages-buttons{
+    width: 16%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+     background-color: rgb(118, 118, 130);
+     border:none;
+    color: white;
+
+}
+.home_left{
+    
+    background: -webkit-linear-gradient(black,black);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    background-size: cover;
+
+}
+.h1-heading-tag{
+    font-size: 4rem;
+}
+.back_ground{
+ 
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-back {
+    background-image: url("../Asserts/Images/fullhome.jpg");
+    background-color: rgb(167, 166, 166); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+  }
+
+.font{
+    font-size: 5vw;
+    padding: 3rem;
+}
+
+
+.home-button-container  {
+    display: flex;
+    gap: 2rem;
+   
+    
+}
+.absolute-container{
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.login-buttons:hover{
+    box-shadow: 2px 1px 20px 0px rgb(13, 13, 13) ;
+}
+.About-heading{
+    background-color: black;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+}
+.About-content{
+    font-size: 1.4rem;
+    color: black;
+    font-family: FreeMono, monospace;
+    line-height: 2.5rem;
+    padding-bottom: 4rem;
+    width: 90%;
+    margin: auto;
+   
+}
+.home-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

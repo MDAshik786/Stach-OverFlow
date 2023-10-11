@@ -10,7 +10,7 @@ import SignUp from "./LoginPage/SignUp";
 const Routers = () => {
   return (
     <Routes>
-      <Route path="/" element={<QuestionContainer />}></Route>
+      <Route path="/" element={<Home />}></Route>
       <Route path="/question" element={<QuestionContainer/>}></Route>
       <Route path="/tag" element={<Tags/>}></Route>
       <Route path="/user" element={<Users/>}></Route> 

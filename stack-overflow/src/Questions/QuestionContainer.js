@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 import SideBar from "../SideBar/SideBar";
 import RelatedTag from "../Home/RelatedTag";
 import QuestionProduct from "./QuestionProduct";
-import SingleQuestion from "./SingleQuestion";
+import "./Question.css";
 
 const QuestionContainer = () => {
   return (
@@ -11,7 +11,7 @@ const QuestionContainer = () => {
       <Header />
       <div className="qn-main-container">
         <SideBar />
-        <SingleQuestion/>
+        <QuestionProduct />
         <RelatedTag />
       </div>
     </>
